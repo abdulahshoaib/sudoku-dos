@@ -25,6 +25,9 @@ A classic **Sudoku game** developed **8088 Assembly**
   * **Arrow keys** → Scroll up/down
   * **WASD** → Move up/down/left/right
 
+[!Art](public/ss.png)
+
+
 ### How to Play
 
 1. On the main menu:
