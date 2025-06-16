@@ -1,21 +1,21 @@
 
 ```
-      
-           ____            _       _                ____   ___  ____  
-          / ___| _   _  __| | ___ | | ___   _      |  _ \ / _ \/ ___| 
-          \___ \| | | |/ _` |/ _ \| |/ / | | |_____| | | | | | \___ \ 
-           ___) | |_| | (_| | (_) |   <| |_| |_____| |_| | |_| |___) |
-          |____/ \__,_|\__,_|\___/|_|\_\\__,_|     |____/ \___/|____/
-                  A Classic Sudoku Game in 8088 Assembly
+
+                   ____            _       _                ____   ___  ____
+                  / ___| _   _  __| | ___ | | ___   _      |  _ \ / _ \/ ___|
+                  \___ \| | | |/ _` |/ _ \| |/ / | | |_____| | | | | | \___ \
+                   ___) | |_| | (_| | (_) |   <| |_| |_____| |_| | |_| |___) |
+                  |____/ \__,_|\__,_|\___/|_|\_\\__,_|     |____/ \___/|____/
+
+
+                          A Classic Sudoku Game in 8088 Assembly
 ```
 
 <div align="center">
-   
+
    [![Play Now](https://img.shields.io/badge/PLAY%20NOW-075c0a?style=for-the-badge)](https://sudoku-x8088.netlify.app/)
 
 </div>
-
-[![Play Now](https://img.shields.io/badge/PLAY%20NOW-blue?style=for-the-badge)](https://sudoku-x8088.netlify.app/)
 
 # sudoku-dos
 
