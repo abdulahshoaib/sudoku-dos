@@ -17,7 +17,6 @@
         <div id="jsdos"></div>
     </div>
     <div class="controls">
-        <button id="fullscreen-btn">Fullscreen</button>
         <button id="restart-btn">Restart Game</button>
     </div>
     <footer>
@@ -26,17 +25,6 @@
     <script>
         const dosElement = document.getElementById("jsdos");
 
-        // fullscreen
-        document.getElementById("fullscreen-btn").addEventListener("click", () => {
-            const container = document.getElementById("jsdos-container");
-            if (container.requestFullscreen) {
-                container.requestFullscreen();
-            } else if (container.webkitRequestFullscreen) {
-                container.webkitRequestFullscreen();
-            } else if (container.msRequestFullscreen) {
-                container.msRequestFullscreen();
-            }
-        });
 
         //init
 
