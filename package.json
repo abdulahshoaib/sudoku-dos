@@ -11,11 +11,12 @@
     "url": "git+https://github.com/abdulahshoaib/sudoku-dos.git"
   },
   "license": "ISC",
-  "author": "abdulahshoaib",
+  "author": "Razi",
   "type": "commonjs",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "npm run dev"
+    "test": "npm run dev",
+    "start": "node server.js"
   },
   "dependencies": {
     "emulators": "^8.3.9",
