@@ -8,9 +8,12 @@
     A Classic Sudoku Game in 8088 Assembly
 ```
 
+[![Play Now](https://img.shields.io/badge/PLAY%20NOW-blue?style=for-the-badge)](https://sudoku-x8088.netlify.app/)
+
 # sudoku-dos
 
 A classic **Sudoku game** developed **8088 Assembly**
+
 
 ### Features
 
