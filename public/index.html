@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Sudoku 8086</title>
+    <script src="https://v8.js-dos.com/latest/js-dos.js"></script>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header>
+        <h1>SUDOKU 8086</h1>
+        <p class="subtitle">CLASSIC DOS VERSION</p>
+    </header>
+    <div id="jsdos-container">
+        <div id="jsdos"></div>
+    </div>
+    <div class="controls">
+        <button id="fullscreen-btn">Fullscreen</button>
+        <button id="restart-btn">Restart Game</button>
+    </div>
+    <footer>
+        Powered by js-dos | Use keyboard for controls
+    </footer>
+    <script>
+        const dosElement = document.getElementById("jsdos");
+
+        // fullscreen
+        document.getElementById("fullscreen-btn").addEventListener("click", () => {
+            const container = document.getElementById("jsdos-container");
+            if (container.requestFullscreen) {
+                container.requestFullscreen();
+            } else if (container.webkitRequestFullscreen) {
+                container.webkitRequestFullscreen();
+            } else if (container.msRequestFullscreen) {
+                container.msRequestFullscreen();
+            }
+        });
+
+        //init
+
+        Dos(dosElement, {
+            url: "sudoku.jsdos",
+            onEvent: (eventType, eventData) => {
+                if (eventType === "ci-ready") {
+                    const ci = eventData;
+
+                    document.getElementById("restart-btn").addEventListener("click", () => {
+                        ci.exit().then(() => {
+                            setTimeout(() => {
+                                Dos(dosElement, {
+                                    url: "sudoku.jsdos"
+                                });
+                            }, 500);
+                        });
+                    });
+
+                    ci.events().onExit(() => {
+                        console.log("Game exited");
+                    });
+                }
+            },
+        });
+    </script>
+</body>
+
+</html>

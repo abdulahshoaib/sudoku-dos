@@ -1,0 +1,25 @@
+{
+  "name": "sudoku-dos",
+  "version": "1.0.0",
+  "description": "Sudoku game in Assembly 8086 using txt and graphics mode.",
+  "homepage": "https://github.com/abdulahshoaib/sudoku-dos#readme",
+  "bugs": {
+    "url": "https://github.com/abdulahshoaib/sudoku-dos/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abdulahshoaib/sudoku-dos.git"
+  },
+  "license": "ISC",
+  "author": "abdulahshoaib",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run dev"
+  },
+  "dependencies": {
+    "emulators": "^8.3.9",
+    "express": "^5.1.0",
+    "jimp": "^1.6.0"
+  }
+}
