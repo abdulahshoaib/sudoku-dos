@@ -1,5 +1,5 @@
 <div align="center">
-  <a href="https://app.netlify.com/projects/sudoku-x8088/deploys">
+  <a href="https://sudoku-x8088.netlify.app">
     <img src="https://api.netlify.com/api/v1/badges/54a3673e-f1a0-450f-8c89-2485cac34d47/deploy-status" alt="Netlify Status" />
   </a>
 </div>
@@ -15,6 +15,7 @@ A classic **Sudoku game** developed **8088 Assembly**
   * **1** → Easy
   * **2** → Medium
   * **3** → Hard
+
 * **Navigation Controls**:
 
   * **Arrow keys** → Scroll up/down
@@ -23,7 +24,7 @@ A classic **Sudoku game** developed **8088 Assembly**
 ### How to Play
 
 1. On the main menu:
-   * Press `1`, `2`, or `3` to select difficulty.
+    * Press `1`, `2`, or `3` to select difficulty.
 2. Use `↑ ↓` (arrow keys) to scroll.
 3. Use `W`, `A`, `S`, `D` to move the active cell.
 4. Fill the grid to complete the puzzle.
